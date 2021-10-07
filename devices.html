@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Devices - PixysOS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google-site-verification" content="b6eSNgB0G3baG3jok0MUf8vZZrf3J34m1pfrLzg0Zm4" />
+        <meta name="description" content="The home of PixysOS Project to download the latest builds for your favorite device." />
+        <meta property="og:title" content="Devices - PixysOS" />
+        <meta property="og:description" content="The ultimate place for downloading PixysOS for your device." />
+        <meta property="og:site_name" content="Devices - PixysOS" />
+        <meta property="og:image" content="static/images/banner.png" />
+        <meta name="keywords" content="pixysos,pixys,pixys os,pie,google,ten,android 10,android q,pie,aosp,ten,android,custom rom,rom,eleven,android 11,android,google 10,google 11" />
+        <link rel="icon" type="image/png" href="static/images/favicon.png"/>
+        <link rel="stylesheet" href="static/css/main.css" />
+        <link rel="stylesheet" href="npm/_sweetalert2/theme-material-ui/material-ui.css" />
+        <link rel="stylesheet" href="ajax/libs/animate_css/4.0.0/animate.min.css" />
+        <link rel="stylesheet" href="ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css" />
+        <link rel="stylesheet" type="text/css" href="ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86472072-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "UA-86472072-1");
+        </script>
+        <script data-ad-client="ca-pub-6049007699248452" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body class="team">
+        <header>
+            <nav class="container">
+                <div class="branding">
+                    <a href="#">
+                        <img src="static/images/pixysos.svg" alt="" />
+                    </a>
+                </div>
+                <ul class="menu" id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="devices.html" class="active">Devices</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="stats.html">Stats</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div align="center">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- horizontal_t1 -->
+            <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-6049007699248452" data-ad-slot="5743447970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <main>
+<section class="team__wrapper container">
+    <h3 class="section__heading">Devices</h3>
+    <form action="#" class="search__bar" onkeydown="return event.key != 'Enter';">
+        <div class="input__search">
+            <input type="text" id="device__search" placeholder="Search Your Device/Maintainer">
+            <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                    <path d="M0 0h24v24H0z" fill="none" />
+                </svg>
+            </span>
+        </div>
+    </form>
+    <div class="brand__list">
+        <a class="selected" href="#" data-brand="all">#All</a>
+        <a href="#" data-brand="asus">#Asus</a>
+        <a href="#" data-brand="lenovo">#Lenovo</a>
+        <a href="#" data-brand="motorola">#Motorola</a>
+        <a href="#" data-brand="oneplus">#OnePlus</a>
+        <a href="#" data-brand="realme">#Realme</a>
+        <a href="#" data-brand="redmi">#Redmi</a>
+        <a href="#" data-brand="xiaomi">#Xiaomi</a>
+    </div>
+    <div class="devices__grid">
+        <div class="device__item" x-data="{ show: false }" data-brand="asus"
+            data-search="x00td;asus;zenfone max pro m1;Rohan Salkar, Subins Mani, Lokesh Kasamneni">
+            <h3 class="dname">Asus Zenfone Max Pro M1</h3>
+            <h4 class="maintainer">Rohan Salkar, Subins Mani, Lokesh Kasamneni</h4>
+            <h4 class="codename">Codename : <span>X00TD</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>19/09/2021 18:28</span> <a
+                    href="/X00TD/eleven/PixysOS-v4.0.11-GAPPS-X00TD-OFFICIAL-20210919-235815.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="x00td.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 636</span></h4>
+                <h4>Display: <span>IPS 5.99&#34; 1080p</span></h4>
+                <h4>Battery: <span>5000</span></h4>
+                <h4>RAM: <span>3/4GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="lenovo"
+            data-search="z2_plus;lenovo;zuk z2 plus;Aswin A S Kurup">
+            <h3 class="dname">Lenovo Zuk Z2 Plus</h3>
+            <h4 class="maintainer">Aswin A S Kurup</h4>
+            <h4 class="codename">Codename : <span>z2_plus</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>19/03/2021 15:52</span> <a
+                    href="/z2_plus/eleven/PixysOS-v4.0.5-GAPPS-z2_plus-OFFICIAL-20210319-212215.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="z2_plus.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 820</span></h4>
+                <h4>Display: <span>IPS 5.0&#34; 1080p</span></h4>
+                <h4>Battery: <span>3500</span></h4>
+                <h4>RAM: <span>3/4GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="lenovo"
+            data-search="z2_row;lenovo;zuk z2 pro;Aswin A S Kurup">
+            <h3 class="dname">Lenovo Zuk Z2 Pro</h3>
+            <h4 class="maintainer">Aswin A S Kurup</h4>
+            <h4 class="codename">Codename : <span>z2_row</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>16/09/2020 04:26</span> <a
+                    href="/z2_row/ten/PixysOS-v3.1.3-z2_row-OFFICIAL-20200916-095650.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="z2_row.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 820</span></h4>
+                <h4>Display: <span>sAMOLED 5.2&#34; 1080p</span></h4>
+                <h4>Battery: <span>3100</span></h4>
+                <h4>RAM: <span>6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="motorola"
+            data-search="sanders;motorola;moto g5 (s) plus;Lucas Ponez Da Mota">
+            <h3 class="dname">Motorola Moto G5 (S) Plus</h3>
+            <h4 class="maintainer">Lucas Ponez Da Mota</h4>
+            <h4 class="codename">Codename : <span>sanders</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>19/09/2021 11:07</span> <a
+                    href="/sanders/eleven/PixysOS-v4.0.11-sanders-OFFICIAL-20210919-163708.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="sanders.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 625</span></h4>
+                <h4>Display: <span>IPS 5.5&#34; 1080p</span></h4>
+                <h4>Battery: <span>3000</span></h4>
+                <h4>RAM: <span>3/4GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="oneplus"
+            data-search="avicii;oneplus;nord;Aswin A S Kurup, Akshay Kakatkar, Subins Mani">
+            <h3 class="dname">OnePlus Nord</h3>
+            <h4 class="maintainer">Aswin A S Kurup, Akshay Kakatkar, Subins Mani</h4>
+            <h4 class="codename">Codename : <span>avicii</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>04/08/2021 01:58</span> <a
+                    href="/avicii/eleven/PixysOS-v4.0.11-GAPPS-avicii-OFFICIAL-20210804-072811.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="avicii.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 765G</span></h4>
+                <h4>Display: <span>IPS 6.44&#34; 1080p</span></h4>
+                <h4>Battery: <span>4115</span></h4>
+                <h4>RAM: <span>6/8/12GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="realme"
+            data-search="x2;realme;x2;Sree Ram">
+            <h3 class="dname">Realme X2</h3>
+            <h4 class="maintainer">Sree Ram</h4>
+            <h4 class="codename">Codename : <span>x2</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>16/09/2020 00:27</span> <a
+                    href="/x2/ten/PixysOS-v3.1.3-x2-OFFICIAL-20200916-055754.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="x2.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 730G</span></h4>
+                <h4>Display: <span>AMOLED 6.4&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>4/6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="redmi"
+            data-search="sweet;redmi;redmi note 10 pro;Ali Hasan">
+            <h3 class="dname">Redmi Redmi Note 10 Pro</h3>
+            <h4 class="maintainer">Ali Hasan</h4>
+            <h4 class="codename">Codename : <span>sweet</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>12/06/2021 10:19</span> <a
+                    href="/sweet/eleven/PixysOS-v4.0.8-GAPPS-sweet-OFFICIAL-20210612-154948.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="sweet.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 732G</span></h4>
+                <h4>Display: <span>AMOLED 6.67&#34; 1080p</span></h4>
+                <h4>Battery: <span>5020</span></h4>
+                <h4>RAM: <span>6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="wayne;xiaomi;mi 6x;Akshay Kakatkar">
+            <h3 class="dname">Xiaomi Mi 6X</h3>
+            <h4 class="maintainer">Akshay Kakatkar</h4>
+            <h4 class="codename">Codename : <span>wayne</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>08/04/2020 13:39</span> <a
+                    href="/wayne/ten/PixysOS-v3.0.3-GAPPS-wayne-OFFICIAL-20200408-190949.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="wayne.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 660</span></h4>
+                <h4>Display: <span>IPS 5.99&#34; 1080p</span></h4>
+                <h4>Battery: <span>3010</span></h4>
+                <h4>RAM: <span>4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="davinci;xiaomi;mi 9t/redmi k20;Zafer Yusuf Vardar">
+            <h3 class="dname">Xiaomi Mi 9T/Redmi K20</h3>
+            <h4 class="maintainer">Zafer Yusuf Vardar</h4>
+            <h4 class="codename">Codename : <span>davinci</span></h4>
+            <h4 class="updated">Last Updated: <span>Never</span></h4>
+            <div class="links">
+                <a href="davinci.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 730</span></h4>
+                <h4>Display: <span>AMOLED 6.39&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>6/8GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="jasmine_sprout;xiaomi;mi a2;Akshay Kakatkar">
+            <h3 class="dname">Xiaomi Mi A2</h3>
+            <h4 class="maintainer">Akshay Kakatkar</h4>
+            <h4 class="codename">Codename : <span>jasmine_sprout</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>08/04/2020 12:24</span> <a
+                    href="/jasmine_sprout/ten/PixysOS-v3.0.3-GAPPS-jasmine_sprout-OFFICIAL-20200408-175417.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="jasmine_sprout.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 660</span></h4>
+                <h4>Display: <span>IPS 5.99&#34; 1080p</span></h4>
+                <h4>Battery: <span>3010</span></h4>
+                <h4>RAM: <span>4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="beryllium;xiaomi;poco f1;Nishant Singh">
+            <h3 class="dname">Xiaomi Poco F1</h3>
+            <h4 class="maintainer">Nishant Singh</h4>
+            <h4 class="codename">Codename : <span>beryllium</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>05/08/2020 09:39</span> <a
+                    href="/beryllium/ten/PixysOS-v3.1.2-beryllium-OFFICIAL-20200805-150946.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="beryllium.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 845</span></h4>
+                <h4>Display: <span>IPS 6.18&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="surya;xiaomi;poco x3;Tushar Mahajan">
+            <h3 class="dname">Xiaomi Poco X3</h3>
+            <h4 class="maintainer">Tushar Mahajan</h4>
+            <h4 class="codename">Codename : <span>surya</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>14/04/2021 12:56</span> <a
+                    href="/surya/eleven/PixysOS-v4.0.6-GAPPS-surya-OFFICIAL-20210414-182601.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="surya.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 732G</span></h4>
+                <h4>Display: <span>IPS 6.67&#34; 1080p</span></h4>
+                <h4>Battery: <span>6000</span></h4>
+                <h4>RAM: <span>6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="riva;xiaomi;redmi 5a;Subins Mani">
+            <h3 class="dname">Xiaomi Redmi 5A</h3>
+            <h4 class="maintainer">Subins Mani</h4>
+            <h4 class="codename">Codename : <span>riva</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>03/06/2020 13:43</span> <a
+                    href="/riva/ten/PixysOS-v3.1.0-riva-OFFICIAL-20200603-191301.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="riva.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 425</span></h4>
+                <h4>Display: <span>IPS 5.0&#34; 720p</span></h4>
+                <h4>Battery: <span>3000</span></h4>
+                <h4>RAM: <span>2GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="sakura;xiaomi;redmi 6 pro;Tushar Mahajan">
+            <h3 class="dname">Xiaomi Redmi 6 Pro</h3>
+            <h4 class="maintainer">Tushar Mahajan</h4>
+            <h4 class="codename">Codename : <span>sakura</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>04/08/2021 12:16</span> <a
+                    href="/sakura/eleven/PixysOS-v4.0.11-GAPPS-sakura-OFFICIAL-20210804-174604.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="sakura.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 625</span></h4>
+                <h4>Display: <span>IPS 5.84&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>3/4GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="onclite;xiaomi;redmi 7;Abhinand A K">
+            <h3 class="dname">Xiaomi Redmi 7</h3>
+            <h4 class="maintainer">Abhinand A K</h4>
+            <h4 class="codename">Codename : <span>onclite</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>21/09/2021 13:38</span> <a
+                    href="/onclite/eleven/PixysOS-v4.0.11-onclite-OFFICIAL-20210921-190816.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="onclite.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 632</span></h4>
+                <h4>Display: <span>IPS 6.26&#34; 720p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>2/3GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="phoenix;xiaomi;redmi k30/poco x2;Akshay Kakatkar">
+            <h3 class="dname">Xiaomi Redmi K30/Poco X2</h3>
+            <h4 class="maintainer">Akshay Kakatkar</h4>
+            <h4 class="codename">Codename : <span>phoenix</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>05/08/2020 14:12</span> <a
+                    href="/phoenix/ten/PixysOS-v3.1.2-phoenix-OFFICIAL-20200805-194213.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="phoenix.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 730G</span></h4>
+                <h4>Display: <span>IPS 6.67&#34; 1080p</span></h4>
+                <h4>Battery: <span>4500</span></h4>
+                <h4>RAM: <span>6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="mido;xiaomi;redmi note 4;Shashank S Patil">
+            <h3 class="dname">Xiaomi Redmi Note 4</h3>
+            <h4 class="maintainer">Shashank S Patil</h4>
+            <h4 class="codename">Codename : <span>mido</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>06/06/2020 09:22</span> <a
+                    href="/mido/ten/PixysOS-v3.1.0-GAPPS-mido-OFFICIAL-20200606-145232.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="mido.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 625</span></h4>
+                <h4>Display: <span>IPS 5.5&#34; 1080p</span></h4>
+                <h4>Battery: <span>4100</span></h4>
+                <h4>RAM: <span>2/3/4GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="whyred;xiaomi;redmi note 5 pro;Sipun Kumar Mahanta">
+            <h3 class="dname">Xiaomi Redmi Note 5 Pro</h3>
+            <h4 class="maintainer">Sipun Kumar Mahanta</h4>
+            <h4 class="codename">Codename : <span>whyred</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>23/09/2021 03:21</span> <a
+                    href="/whyred/eleven/PixysOS-v4.0.11-GAPPS-whyred-OFFICIAL-20210923-085147.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="whyred.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 636</span></h4>
+                <h4>Display: <span>IPS 5.99&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>4/6GB</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="tulip;xiaomi;redmi note 6 pro;Astile Kuriakose">
+            <h3 class="dname">Xiaomi Redmi Note 6 Pro</h3>
+            <h4 class="maintainer">Astile Kuriakose</h4>
+            <h4 class="codename">Codename : <span>tulip</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>12/01/2021 16:17</span> <a
+                    href="/tulip/eleven/PixysOS-v4.0.3-GAPPS-tulip-OFFICIAL-20210112-214756.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="tulip.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 636</span></h4>
+                <h4>Display: <span>IPS 6.26&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>3/4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="lavender;xiaomi;redmi note 7;Alisson Grizotti Bagual">
+            <h3 class="dname">Xiaomi Redmi Note 7</h3>
+            <h4 class="maintainer">Alisson Grizotti Bagual</h4>
+            <h4 class="codename">Codename : <span>lavender</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>08/07/2021 18:29</span> <a
+                    href="/lavender/eleven/PixysOS-v4.0.10-GAPPS-lavender-OFFICIAL-20210708-235922.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="lavender.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 660</span></h4>
+                <h4>Display: <span>IPS 6.3&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="violet;xiaomi;redmi note 7 pro;Nishant Singh, Panchajanya Sarkar">
+            <h3 class="dname">Xiaomi Redmi Note 7 Pro</h3>
+            <h4 class="maintainer">Nishant Singh, Panchajanya Sarkar</h4>
+            <h4 class="codename">Codename : <span>violet</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>22/12/2020 12:16</span> <a
+                    href="/violet/eleven/PixysOS-v4.0.3-GAPPS-violet-OFFICIAL-20201222-174650.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="violet.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 675</span></h4>
+                <h4>Display: <span>IPS 6.3&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="ginkgo;xiaomi;redmi note 8;Wesley Jebaraj, Shreejoy Dash">
+            <h3 class="dname">Xiaomi Redmi Note 8</h3>
+            <h4 class="maintainer">Wesley Jebaraj, Shreejoy Dash</h4>
+            <h4 class="codename">Codename : <span>ginkgo</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>05/08/2020 10:58</span> <a
+                    href="/ginkgo/ten/PixysOS-v3.1.2-ginkgo-OFFICIAL-20200805-162802.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="ginkgo.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 665</span></h4>
+                <h4>Display: <span>IPS 6.3&#34; 1080p</span></h4>
+                <h4>Battery: <span>4000</span></h4>
+                <h4>RAM: <span>4/6GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="begonia;xiaomi;redmi note 8 pro;Harshit Verma">
+            <h3 class="dname">Xiaomi Redmi Note 8 Pro</h3>
+            <h4 class="maintainer">Harshit Verma</h4>
+            <h4 class="codename">Codename : <span>begonia</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>04/08/2021 04:44</span> <a
+                    href="/begonia/eleven/PixysOS-v4.0.11-GAPPS-begonia-OFFICIAL-20210804-101422.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="begonia.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Mediatek Helio G90T</span></h4>
+                <h4>Display: <span>IPS 6.53&#34; 1080p</span></h4>
+                <h4>Battery: <span>4500</span></h4>
+                <h4>RAM: <span>6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="miatoll;xiaomi;redmi note 9s/pro;Astile Kuriakose">
+            <h3 class="dname">Xiaomi Redmi Note 9S/Pro</h3>
+            <h4 class="maintainer">Astile Kuriakose</h4>
+            <h4 class="codename">Codename : <span>miatoll</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>15/09/2020 15:29</span> <a
+                    href="/miatoll/ten/PixysOS-v3.1.3-miatoll-OFFICIAL-20200915-205919.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="miatoll.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Qualcomm Snapdragon 720G</span></h4>
+                <h4>Display: <span>IPS 6.67 &#34; 1080p</span></h4>
+                <h4>Battery: <span>5020</span></h4>
+                <h4>RAM: <span>4/6/8GB LPDDR4X</span></h4>
+            </div>
+        </div>
+        <div class="device__item" x-data="{ show: false }" data-brand="xiaomi"
+            data-search="ysl;xiaomi;redmi y2/s2;Tushar Mahajan">
+            <h3 class="dname">Xiaomi Redmi Y2/S2</h3>
+            <h4 class="maintainer">Tushar Mahajan</h4>
+            <h4 class="codename">Codename : <span>ysl</span></h4>
+            <h4 class="updated">Last Updated:
+                <span>11/02/2020 11:39</span> <a
+                    href="/ysl/ten/PixysOS-v3.0.3-ysl-OFFICIAL-20200211-170948.zip"
+                    target="_blank"><i class="material-icons">launch</i></a></h4>
+            <div class="links">
+                <a href="ysl.html" class="download">Download</a>
+                <button class="specs" @click="show = !show">Specs</button>
+            </div>
+            <div class="specs__list" :class="{ 's_shown': show }" @click.away="show = !show">
+                <h4>CPU: <span>Snapdragon 625</span></h4>
+                <h4>Display: <span>IPS 5.99&#34; 720p</span></h4>
+                <h4>Battery: <span>3080</span></h4>
+                <h4>RAM: <span>3/4GB LPDDR4X</span></h4>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+        <div align="center" style="padding-bottom: 50px; height: auto !important;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- horizontal_t1 -->
+            <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-6049007699248452" data-ad-slot="5743447970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div align="center">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- horizontal_t1 -->
+            <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-6049007699248452" data-ad-slot="5743447970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <footer>
+            <div class="footer__inner container">
+                <div class="page__links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="devices.html">Devices</a></li>
+                        <li><a href="control_subdomain/ci.html">Builds CI</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="https://paypal.me/Subinsmani">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="social__links">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/PixysOS">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M8.202 0A8.2 8.2 0 000 8.202a8.197 8.197 0 005.608 7.782c.41.072.564-.174.564-.39 0-.194-.01-.84-.01-1.527-2.06.38-2.594-.502-2.758-.964-.092-.236-.492-.963-.84-1.158-.288-.154-.698-.534-.011-.544.646-.01 1.107.595 1.261.841.738 1.24 1.917.892 2.389.677.072-.534.287-.892.523-1.097-1.825-.205-3.732-.913-3.732-4.05 0-.892.318-1.63.84-2.205-.081-.205-.369-1.045.083-2.173 0 0 .687-.216 2.255.84a7.611 7.611 0 012.05-.276 7.61 7.61 0 012.051.276c1.57-1.066 2.256-.84 2.256-.84.451 1.128.164 1.968.082 2.173.523.575.84 1.302.84 2.205 0 3.147-1.916 3.845-3.741 4.05.297.256.553.748.553 1.517 0 1.097-.01 1.979-.01 2.256 0 .215.154.471.564.39a8.215 8.215 0 005.588-7.783A8.2 8.2 0 008.202 0z"
+                                        fill="#fff"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M11.077.5H1.23C.55.5 0 1.051 0 1.73v9.847c0 .68.551 1.23 1.23 1.23h9.847c.68 0 1.23-.55 1.23-1.23V1.73c0-.68-.55-1.231-1.23-1.231z" fill="#606060"></path>
+                                        <path d="M14.77 4.192H4.922c-.68 0-1.23.551-1.23 1.231v9.846c0 .68.55 1.231 1.23 1.231h9.846c.68 0 1.231-.551 1.231-1.23V5.422c0-.68-.551-1.23-1.23-1.23z" fill="#fff"></path>
+                                        <path
+                                            d="M5.538 7.27h3.693V8.5H5.538V7.27zM10.461 7.27h3.693V8.5H10.46V7.27zM5.538 11.577H6.77v-1.23H8v1.23h1.23v1.23H8v1.232H6.77v-1.231H5.537v-1.231zM10.461 11.577h1.231v-1.23h1.231v1.23h1.23v1.23h-1.23v1.232h-1.23v-1.231H10.46v-1.231z"
+                                            fill="#343434"
+                                        ></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0">
+                                            <path fill="#fff" d="M0 .5h16v16H0z"></path>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/PixysOS">
+                                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="url(#paint0_linear)"></path>
+                                    <path d="M6.53334 11.6667C6.27414 11.6667 6.31821 11.5688 6.22881 11.322L5.46667 8.81384L11.3333 5.33337" fill="#606060"></path>
+                                    <path d="M6.53333 11.6666C6.73333 11.6666 6.82166 11.5751 6.93332 11.4666L7.99999 10.4294L6.66946 9.62708" fill="#232323"></path>
+                                    <path
+                                        d="M6.66932 9.62735L9.89332 12.0093C10.2613 12.2123 10.5267 12.1072 10.6184 11.6678L11.9307 5.48355C12.0651 4.94488 11.7254 4.70048 11.3734 4.86028L3.66739 7.83168C3.14139 8.04268 3.14452 8.33615 3.57152 8.46688L5.54905 9.08415L10.1273 6.19581C10.3434 6.06475 10.5418 6.13515 10.379 6.27968"
+                                        fill="#343434"
+                                    ></path>
+                                    <defs>
+                                        <linearGradient id="paint0_linear" x1="10.672" y1="2.672" x2="6.672" y2="12" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="white"></stop>
+                                            <stop offset="1" stop-color="white"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/PixysOS">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"
+                                        fill="#fff"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Pixys_OS">
+                                <svg fill="#fff" viewBox="0 0 24 24">
+                                    <g>
+                                        <path
+                                            d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="packet__credits">
+                    <svg id="Layer_1" data-name="Layer 1" class="packet-logo logo-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.03 30.44">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #fff;
+                                }
+                            </style>
+                        </defs>
+                        <polygon class="cls-1" points="67.6 15.89 73.13 15.89 73.13 14.39 67.6 14.39 67.6 11.15 75.84 11.15 75.84 9.65 65.93 9.65 65.93 21.09 76.14 21.09 76.14 19.61 67.6 19.61 67.6 15.89"></polygon>
+                        <path class="cls-1" d="M271.18,396.84a3.2,3.2,0,0,1-3.36,3.4,3.09,3.09,0,0,1-3.17-3.4V390H263v6.93a4.6,4.6,0,0,0,4.81,4.82c3.78,0,5-2.59,5-4.82V390h-1.64Z" transform="translate(-159.97 -380.31)"></path>
+                        <rect class="cls-1" x="122.06" y="9.65" width="1.64" height="11.44"></rect>
+                        <polygon class="cls-1" points="143.3 18.61 135.18 9.65 133.56 9.65 133.56 21.09 135.2 21.09 135.2 12.05 143.33 21.09 144.93 21.09 144.93 9.65 143.3 9.65 143.3 18.61"></polygon>
+                        <rect class="cls-1" x="154.89" y="9.65" width="1.64" height="11.44"></rect>
+                        <polygon class="cls-1" points="172.49 14.88 177.25 9.64 175.23 9.64 171.45 13.75 167.77 9.64 165.63 9.64 170.22 14.88 164.48 21.08 166.57 21.08 171.29 15.99 175.78 21.08 178.05 21.08 172.49 14.88"></polygon>
+                        <path
+                            class="cls-1"
+                            d="M248.58,389.5a6,6,0,0,0-6,6.2v0a5.9,5.9,0,0,0,6.08,6.07,6.2,6.2,0,0,0,2.67-.63l.93,1.08h1.9l-1.63-1.87a5.82,5.82,0,0,0,2.18-4.77v0a5.92,5.92,0,0,0-6.09-6.07m4.38,6.17a4.51,4.51,0,0,1-1.47,3.57l-.89-1h-1.91l1.56,1.79a4.29,4.29,0,0,1-1.6.33,4.42,4.42,0,0,1-4.39-4.64v-.05a4.37,4.37,0,0,1,4.29-4.68,4.44,4.44,0,0,1,4.42,4.67Z"
+                            transform="translate(-159.97 -380.31)"
+                        ></path>
+                        <polygon
+                            class="cls-1"
+                            points="43.48 7.05 43.48 20.64 40.38 21.73 40.38 5.97 31.06 2.71 31.06 24.98 27.95 26.07 27.95 1.62 23.3 0 18.64 1.62 18.64 26.07 15.53 24.98 15.53 2.71 6.21 5.97 6.21 21.73 3.11 20.64 3.11 7.05 0 8.13 0 22.85 9.32 26.1 9.32 8.17 12.43 7.09 12.43 27.19 21.74 30.44 21.74 3.83 23.3 3.29 24.85 3.83 24.85 30.44 34.17 27.19 34.17 7.09 37.27 8.17 37.27 26.1 46.59 22.85 46.59 8.13 43.48 7.05"
+                        ></polygon>
+                        <path
+                            class="cls-1"
+                            d="M212.5,402.13a2.81,2.81,0,0,0,2.8-2.81v0a2.8,2.8,0,1,0-5.6,0h0a2.79,2.79,0,0,0,2.8,2.8m0-.3a2.47,2.47,0,0,1-2.48-2.5h0a2.48,2.48,0,1,1,5,0v0a2.49,2.49,0,0,1-2.48,2.51m-1.16-1.11h.71v-.92h.45l.63.92H214l-.74-1.05a.89.89,0,0,0,.64-.9c0-.66-.5-1-1.17-1h-1.37Zm.71-1.5v-.8h.61c.3,0,.5.14.5.4s-.18.4-.5.4Z"
+                            transform="translate(-159.97 -380.31)"
+                        ></path>
+                        <path class="cls-1" d="M377,389.94h2.27L383,395.4l3.69-5.46h2.27v11.55h-2.13v-8.28L383,398.65h-.07l-3.79-5.41v8.25H377Z" transform="translate(-159.97 -380.31)"></path>
+                        <path class="cls-1" d="M393.42,389.94h9v1.82h-6.86v3h6.08v1.83h-6.08v3.09h6.94v1.81h-9.07Z" transform="translate(-159.97 -380.31)"></path>
+                        <path class="cls-1" d="M409.36,391.83h-3.87v-1.89h9.86v1.89h-3.86v9.66h-2.13Z" transform="translate(-159.97 -380.31)"></path>
+                        <path class="cls-1" d="M421.71,389.86h2L429,401.49h-2.25l-1.23-2.79H419.8l-1.24,2.79h-2.18Zm3.05,7.05-2.1-4.62-2.08,4.62Z" transform="translate(-159.97 -380.31)"></path>
+                        <path class="cls-1" d="M432.49,389.94h2.13v9.7H441v1.85h-8.5Z" transform="translate(-159.97 -380.31)"></path>
+                        <line class="cls-1" x1="197.72" y1="0.72" x2="197.72" y2="29.95"></line>
+                        <rect class="cls-1" x="197.47" y="0.72" width="0.5" height="29.24"></rect>
+                    </svg>
+                    <p>Hosted on <a href="https://metal.equinix.com/">metal.equinix.com</a> -Global Automated Bare Metal.</p>
+                </div>
+                <span class="pixys__credits">PixysOS @ 2020</span>
+            </div>
+        </footer>
+        <script src="gh/alpinejs/alpine_v2.x.x/dist/alpine.js" defer></script>
+        <script src="jquery-3.4.1.min.js" ></script>
+        <script src="npm/sweetalert2_11/dist/sweetalert2.min.js"></script>
+        <script src="static/js/selectnav.js"></script>
+        <script src="static/js/datatables.js"></script>
+        <script src="static/js/app.js"></script>
+    </body>
+</html>
